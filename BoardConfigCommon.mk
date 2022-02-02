@@ -28,10 +28,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a53
 # Kernel
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/samsung/universal7570
-KERNEL_TOOLCHAIN_PREFIX:=/home/nick/android/lineage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
-TARGET_KERNEL_CLANG_COMPILE := false
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := /home/nick/android/lineage/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+TARGET_KERNEL_SOURCE := kernel/samsung/j3y17lte
 
 # Image
 BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
