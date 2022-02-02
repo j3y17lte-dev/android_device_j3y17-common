@@ -1,7 +1,7 @@
 # Copyright (C) 2018 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 
-COMMON_PATH := device/samsung/universal7570-common
+COMMON_PATH := device/samsung/j3y17-common
 
 # Platform
 BOARD_VENDOR := samsung
@@ -127,4 +127,4 @@ endif
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)/releasetools
 
 # Inherit from the proprietary version
--include vendor/samsung/universal7570-common/BoardConfigVendor.mk
+-include vendor/samsung/j3y17lte/BoardConfigVendor.mk

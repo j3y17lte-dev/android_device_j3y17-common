@@ -4,7 +4,7 @@
 
 set -e
 
-DEVICE=universal7570-common
+DEVICE=j3y17-common
 VENDOR=samsung
 
 # Load extractutils and do some sanity checks
